@@ -1,0 +1,285 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+header{
+    font-family:'Mate SC',sans-serif;
+    color: whitesmoke;
+    font-size:25px;
+    text-align: center;
+    background-image: url("banniere.png");
+    background-size: 1000px;
+    background-color: rgb(41, 41, 41, 50%);
+}
+
+img{
+    border-radius: 5px;
+}
+.logo{
+    width: 120px;
+    border: 0px solid rgb(41, 41, 41);
+}
+.presentation-contenu{
+    display: flex;
+    border-radius: 6px;
+}
+.bloc-1{
+    width: calc(100%/6);
+}
+
+.bloc-2{
+    width: calc(100%/6);
+    margin: auto;
+}
+.bloc-3{
+    width: calc(100%/6);
+}
+body{
+    background-image: url(background2.png);
+    background-color: rgb(41, 41, 41);
+    background-size: 1750px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+b{
+    font-family:'Caveat',sans-serif;
+}
+.images{
+    margin: 0 auto;
+    width: 100px;
+    display: flex;
+}
+/* Menu */
+.sidebar {
+    position: fixed;
+    top: 20;
+    left: 0;
+    height: 38%;
+    width: 85px;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    background: rgb(41, 41, 41, 90%);
+    padding: 25px 20px;
+    transition: all 0.4s ease;
+    border-radius: 10px;
+    align-items: center;
+    border-radius: 6px;
+    border: 2px solid #ececec;
+    border-left: 0px transparent;
+    border-top: 2px solid whitesmoke;
+  }
+  .sidebar:hover {
+    width: 260px;
+  } 
+.menu{
+    margin-top:10px;
+    font-family:'Mate SC',sans-serif;
+    font-size:25px;
+    color: whitesmoke
+} 
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.sidebar-links li:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.icon{
+    width: 32px;
+    margin: auto;
+}
+.sidebar:hover .menu-text{
+    display: block;
+    visibility: visible;
+}
+.sidebar:hover .menu-icon{
+    display: none;
+}
+.menu-text{
+    display: none;
+}
+
+/*box jeux*/
+.lmenu{
+    margin-top: 20px;
+    list-style-type: none;
+    font-family:'Lato',sans-serif;
+    font-size:20px;
+    color: whitesmoke
+}
+.ldesc{
+    margin-left: 25px;
+    font-family: 'Lato',sans-serif;
+    font-size:17px;
+    color: whitesmoke;
+}
+.description{
+    display: flex;
+}
+.imgdr3{
+    width: 160px;
+}
+.content {
+    /*display: flex;*/
+}
+.Drakengard1{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 200px;
+    background-color: rgba(41, 41, 41, 0.8);
+    border: solid rgb(198, 198, 198);
+    border-radius: 6px;
+}
+.imgdr1{
+    width: 160px;
+}
+.imgdr2{
+    width: 160px;
+}
+.imgnr{
+    width: 200px;
+}
+.imgnra{
+    width:160px;
+}
+.imgnrr{
+    width: 160px;
+}
+.titre{
+    color: whitesmoke;
+    font-family: 'Caveat';
+    margin-left: 35px;
+}
+.imgdr1:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.imgdr2:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.imgdr3:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.imgnr:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.imgnra:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.imgnrr:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+/*pages*/
+.photo{
+    display: flex;
+}
+.photo2{
+    display: flex
+}
+p{
+    font-family:'Lato',sans-serif;
+    color: whitesmoke;
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+.dr{
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+    margin-left: 200px;
+    background-color: rgb(41, 41, 41, 80%);
+    border-radius: 6px;
+    border: solid rgb(198, 198, 198);
+    color: whitesmoke;
+    font-size:20px;
+    line-height: 30px
+}
+.titre2{
+    font-family:'Caveat',sans-serif; 
+}
+.pages{
+    margin: auto;
+    width: 32%;
+}
+/*travaux*/
+.travaux{
+    width: 1000px;
+}
+.tr{
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+    margin-left: 200px;
+    margin-right: 270px;
+    background-color: rgb(41, 41, 41, 80%);
+    border-radius: 6px;
+    border: solid rgb(198, 198, 198);
+    color: whitesmoke;
+    font-size:20px;
+    line-height: 30px
+}
+/*footer*/
+footer{
+    background-color: rgb(41, 41, 41, 50%);
+    display: flex;
+    font-family: 'Lato';
+    color: whitesmoke; 
+    text-align: center;
+    margin: auto;
+    height: 50px;
+}
+.b1{
+    width: calc(100%/2)
+}
+.b2{
+    width: calc(100%/1)
+}
+.sidebar-2 {
+    display: none;
+    background-color: rgb(0, 0, 0, 50%);
+    border-radius: 6px;
+}
+/*mobile*/
+@media screen and (max-width: 800px) { 
+    .Drakengard1 {
+        display: block;
+        margin: 10px;
+    }
+    .presentation-contenu{
+        display: block;
+        width: 100%;
+    }
+    .bloc-1, .bloc-2, .bloc-3{
+        width: 100%;
+        text-align: center;
+    }
+    .content {
+        display: block;
+    }
+    .sidebar {
+        display: none;
+    }
+    .sidebar-2 {
+        display: block;
+        text-align: center;
+    }
+    .dr{
+        margin: auto;
+    }
+    .tr{
+        margin: auto;
+    }
+    .travaux{
+        width: 350px;
+    }
+}
